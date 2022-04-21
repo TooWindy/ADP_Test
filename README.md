@@ -1,4 +1,4 @@
-#ADP Innovations Test
+ADP Innovations Test
 
 *The only dependency I used was axios to make our api calls. In any case be sure to npm install before running this code.
 
