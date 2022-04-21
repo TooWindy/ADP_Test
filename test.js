@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-async function getTask() {
+async function completeTask() {
   try {
     const task =  await axios.get('https://interview.adpeai.com/api/v1/get-task')
     const taskData = task.data
@@ -28,4 +28,4 @@ async function getTask() {
 }
 
 
-console.log(getTask())
+console.log(completeTask())
